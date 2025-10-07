@@ -1,6 +1,6 @@
 import tkinter as tk
 from moeda import apidolar
-
+#função que consome uma api public
 def dolar():
     cotacao = apidolar();
     reais =  float(valor.get())
